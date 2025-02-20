@@ -20,5 +20,5 @@ from client import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('search/api', views.search_view),
+    path('api/v1/searchlist', views.search_view),
 ]
